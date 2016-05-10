@@ -1,0 +1,52 @@
+{
+    "name": "bengoruser/twig-bridge",
+    "description": "Adapter to make User compatible with Twig",
+    "keywords": ["user", "adapter", "doctrine", "orm", "ddd"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Beñat Espiña Diaz",
+            "email": "benatespina@gmail.com",
+            "homepage": "http://benatespina.com"
+        },
+        {
+            "name": "Gorka Laucirica Ibarra",
+            "email": "gorka.lauzirika@gmail.com",
+            "homepage": "http://gorkalaucirica.net"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/BenGorUser/User"
+        }
+    ],
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "bengor/user": "dev-refactor/decouple-from-third-party-libraries",
+        "twig/twig": "^1.24"
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "^1.11",
+        "phpspec/phpspec": "^2.5"
+    },
+    "scripts": {
+        "cs": [
+            "php-cs-fixer fix --config-file=.php_cs",
+            "php-cs-fixer fix --config-file=.phpspec_cs"
+        ],
+        "test": "phpspec run"
+    },
+    "autoload": {
+        "psr-4": {
+            "BenGorUser\\TwigBridge\\": "src/BenGorUser/TwigBridge/"
+        },
+        "exclude-from-classmap": ["/spec/"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
