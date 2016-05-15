@@ -3,9 +3,9 @@
 
 [![Build Status](https://travis-ci.org/BenGorUser/TwigBridge.svg?branch=master)](https://travis-ci.org/BenGorUser/TwigBridge)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/BenGorUser/TwigBridge/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/BenGorUser/TwigBridge/?branch=master)
-[![Total Downloads](https://poser.pugx.org/bengoruser/twig-bridge/downloads)](https://packagist.org/packages/bengoruser/twig-bridge/)
-[![Latest Stable Version](https://poser.pugx.org/bengoruser/twig-bridge//v/stable.svg)](https://packagist.org/packages/bengoruser/twig-bridge/)
-[![Latest Unstable Version](https://poser.pugx.org/bengoruser/twig-bridge//v/unstable.svg)](https://packagist.org/packages/bengoruser/twig-bridge/)
+[![Total Downloads](https://poser.pugx.org/bengor-user/twig-bridge/downloads)](https://packagist.org/packages/bengor-user/twig-bridge/)
+[![Latest Stable Version](https://poser.pugx.org/bengor-user/twig-bridge//v/stable.svg)](https://packagist.org/packages/bengor-user/twig-bridge/)
+[![Latest Unstable Version](https://poser.pugx.org/bengor-user/twig-bridge//v/unstable.svg)](https://packagist.org/packages/bengor-user/twig-bridge/)
 
 ##Requirements
 PHP >= 5.5
@@ -13,7 +13,7 @@ PHP >= 5.5
 ##Installation
 The easiest way to install this component is using [Composer][6]
 ```bash
-$ composer require bengoruser/twig-bridge
+$ composer require bengor-user/twig-bridge
 ```
 
 ##Documentation
@@ -52,7 +52,7 @@ This library is created by:
 **@gorkalaucirica** - [gorka.lauzirika@gmail.com](mailto:gorka.lauzirika@gmail.com)
 
 ##Licensing Options
-[![License](https://poser.pugx.org/bengoruser/twig-bridge//license.svg)](https://github.com/BenGorUser/TwigBridge/blob/master/LICENSE)
+[![License](https://poser.pugx.org/bengor-user/twig-bridge//license.svg)](https://github.com/BenGorUser/TwigBridge/blob/master/LICENSE)
 
 [1]: http://www.phpspec.net/
 [2]: http://symfony.com/doc/current/contributing/code/index.html

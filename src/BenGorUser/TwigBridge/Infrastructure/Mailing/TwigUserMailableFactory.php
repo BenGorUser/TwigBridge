@@ -12,9 +12,9 @@
 
 namespace BenGorUser\TwigBridge\Infrastructure\Mailing;
 
-use BenGor\User\Domain\Model\UserEmail;
-use BenGor\User\Domain\Model\UserMailable;
-use BenGor\User\Domain\Model\UserMailableFactory;
+use BenGorUser\User\Domain\Model\UserEmail;
+use BenGorUser\User\Domain\Model\UserMailable;
+use BenGorUser\User\Domain\Model\UserMailableFactory;
 
 /**
  * Twig implementation of user mailable factory domain class.
