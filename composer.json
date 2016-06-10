@@ -18,8 +18,7 @@
     ],
     "require": {
         "php": "^5.5 || ^7.0",
-        "bengor-user/user": "0.6.x-dev",
-        "symfony/twig-bridge": "^3.0"
+        "bengor-user/user": "0.6.x-dev"
     },
     "require-dev": {
         "fabpot/php-cs-fixer": "^1.11",
