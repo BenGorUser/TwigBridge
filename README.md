@@ -7,7 +7,7 @@
 [![Latest Stable Version](https://poser.pugx.org/bengor-user/twig-bridge/v/stable.svg)](https://packagist.org/packages/bengor-user/twig-bridge/)
 [![Latest Unstable Version](https://poser.pugx.org/bengor-user/twig-bridge/v/unstable.svg)](https://packagist.org/packages/bengor-user/twig-bridge/)
 
-##Requirements
+## Requirements
 PHP >= 5.5
 
 ##Installation
@@ -16,10 +16,10 @@ The easiest way to install this component is using [Composer][6]
 $ composer require bengor-user/twig-bridge
 ```
 
-##Documentation
+## Documentation
 All the documentation is stored inside the [user library](https://github.com/BenGorUser/User/blob/master/docs/index.md).
 
-##Tests
+## Tests
 This library is completely tested by **[PHPSpec][1], SpecBDD framework for PHP**.
 
 Run the following command to launch tests:
@@ -27,7 +27,7 @@ Run the following command to launch tests:
 $ vendor/bin/phpspec run -fpretty
 ```
 
-##Contributing
+## Contributing
 If you have any doubt or maybe you want to share some opinion, you can use our **Gitter** chat.
 
 [![Join the chat at https://gitter.im/BenGorUser/User](https://badges.gitter.im/BenGorUser/User.svg)](https://gitter.im/BenGorUser/User?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -52,13 +52,13 @@ If you would like to contribute it is a good point to follow Symfony contributio
 [Contributing Code][2] in the project documentation. If you are submitting a pull request, please follow the guidelines
 in the [Submitting a Patch][3] section and use the [Pull Request Template][4].
 
-##Credits
+## Credits
 This library is created by:
 >
 **@benatespina** - [benatespina@gmail.com](mailto:benatespina@gmail.com)<br>
 **@gorkalaucirica** - [gorka.lauzirika@gmail.com](mailto:gorka.lauzirika@gmail.com)
 
-##Licensing Options
+## Licensing Options
 [![License](https://poser.pugx.org/bengor-user/twig-bridge/license.svg)](https://github.com/BenGorUser/TwigBridge/blob/master/LICENSE)
 
 [1]: http://www.phpspec.net/
